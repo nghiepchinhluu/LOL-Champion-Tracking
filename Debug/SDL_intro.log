@@ -1,0 +1,13 @@
+﻿  main.cpp
+e:\current lol bot\smalllolproject_90_\main.cpp(48): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\current lol bot\smalllolproject_90_\champion_core.h(19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+e:\current lol bot\smalllolproject_90_\champion_core.h(20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+e:\current lol bot\smalllolproject_90_\ping.h(3): warning C4005: 'WINVER': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\sdkddkver.h(237): note: see previous definition of 'WINVER'
+e:\current lol bot\smalllolproject_90_\ping.h(25): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+e:\current lol bot\smalllolproject_90_\ping.h(26): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+e:\current lol bot\smalllolproject_90_\ping.h(39): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+e:\current lol bot\smalllolproject_90_\ping.h(40): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+e:\current lol bot\smalllolproject_90_\ping.h(8): warning C4101: 'key': unreferenced local variable
+e:\current lol bot\smalllolproject_90_\pixels(new).h(77): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  SDL_intro.vcxproj -> E:\Current LOL Bot\SmallLoLProject_90_\Debug\SDL_intro.exe
