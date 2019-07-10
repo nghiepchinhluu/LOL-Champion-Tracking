@@ -1,46 +1,49 @@
-﻿  Current.cpp
-e:\current lol bot\smalllolproject_90_\current.cpp(37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-e:\current lol bot\smalllolproject_90_\current.cpp(45): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-e:\current lol bot\smalllolproject_90_\champion_core.h(19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-e:\current lol bot\smalllolproject_90_\champion_core.h(20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-e:\current lol bot\smalllolproject_90_\ping.h(3): warning C4005: 'WINVER': macro redefinition
+﻿  main.cpp
+e:\lol-champion-tracking\lol-champion-tracking\main.cpp(40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\lol-champion-tracking\lol-champion-tracking\main.cpp(48): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\lol-champion-tracking\lol-champion-tracking\champion_core.h(19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+e:\lol-champion-tracking\lol-champion-tracking\champion_core.h(20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+e:\lol-champion-tracking\lol-champion-tracking\ping.h(3): warning C4005: 'WINVER': macro redefinition
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\sdkddkver.h(237): note: see previous definition of 'WINVER'
-e:\current lol bot\smalllolproject_90_\ping.h(25): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
-e:\current lol bot\smalllolproject_90_\ping.h(26): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
-e:\current lol bot\smalllolproject_90_\ping.h(39): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
-e:\current lol bot\smalllolproject_90_\ping.h(40): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
-e:\current lol bot\smalllolproject_90_\ping.h(8): warning C4101: 'key': unreferenced local variable
-e:\current lol bot\smalllolproject_90_\setupscreen.h(163): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-e:\current lol bot\smalllolproject_90_\setupscreen.h(182): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-Current.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol SDL_CreateRGBSurfaceWithFormat referenced in function "void __cdecl champion::`dynamic initializer for 'portrait''(void)" (??__Eportrait@champion@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "void __cdecl Background::Init(struct Background::Background *,char const *,char const *,struct SDL_Renderer *)" (?Init@Background@@YAXPEAU11@PEBD1PEAUSDL_Renderer@@@Z)
-Current.obj : error LNK2019: unresolved external symbol SDL_SetSurfaceBlendMode referenced in function "void __cdecl ChampSelectScreen::Process(void)" (?Process@ChampSelectScreen@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol SDL_UpperBlitScaled referenced in function "void __cdecl ChampSelectScreen::Process(void)" (?Process@ChampSelectScreen@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
-Current.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "void __cdecl AutopingScreen::Process(void)" (?Process@AutopingScreen@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
-Current.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "void __cdecl AutopingScreen::Init(void)" (?Init@AutopingScreen@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol SDL_SetTextureAlphaMod referenced in function "void __cdecl Background::Init(struct Background::Background *,char const *,char const *,struct SDL_Renderer *)" (?Init@Background@@YAXPEAU11@PEBD1PEAUSDL_Renderer@@@Z)
-Current.obj : error LNK2019: unresolved external symbol SDL_SetTextureBlendMode referenced in function "void __cdecl Background::Init(struct Background::Background *,char const *,char const *,struct SDL_Renderer *)" (?Init@Background@@YAXPEAU11@PEBD1PEAUSDL_Renderer@@@Z)
-Current.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "void __cdecl AutopingScreen::Process(void)" (?Process@AutopingScreen@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol SDL_RenderFillRect referenced in function "void __cdecl AutopingScreen::Process(void)" (?Process@AutopingScreen@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol SDL_RenderCopyEx referenced in function "void __cdecl AutopingScreen::Process(void)" (?Process@AutopingScreen@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function SDL_main
-Current.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
-Current.obj : error LNK2019: unresolved external symbol TTF_Init referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol TTF_OpenFont referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol TTF_RenderText_Solid referenced in function "struct SDL_Texture * __cdecl Write(char *,struct _TTF_Font *,struct SDL_Color,struct SDL_Renderer *)" (?Write@@YAPEAUSDL_Texture@@PEADPEAU_TTF_Font@@USDL_Color@@PEAUSDL_Renderer@@@Z)
-Current.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "void __cdecl AutopingScreen::Init(void)" (?Init@AutopingScreen@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol Mix_OpenAudio referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol Mix_LoadWAV_RW referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol Mix_LoadMUS referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol Mix_PlayChannelTimed referenced in function "void __cdecl AutopingScreen::Process(void)" (?Process@AutopingScreen@@YAXXZ)
-Current.obj : error LNK2019: unresolved external symbol Mix_PlayMusic referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
+e:\lol-champion-tracking\lol-champion-tracking\ping.h(25): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+e:\lol-champion-tracking\lol-champion-tracking\ping.h(26): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+e:\lol-champion-tracking\lol-champion-tracking\ping.h(39): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+e:\lol-champion-tracking\lol-champion-tracking\ping.h(40): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+e:\lol-champion-tracking\lol-champion-tracking\ping.h(8): warning C4101: 'key': unreferenced local variable
+e:\lol-champion-tracking\lol-champion-tracking\pixels(new).h(77): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+e:\lol-champion-tracking\lol-champion-tracking\setupscreen.h(163): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\lol-champion-tracking\lol-champion-tracking\setupscreen.h(181): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+main.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateRGBSurfaceWithFormat referenced in function "void __cdecl champion::`dynamic initializer for 'portrait''(void)" (??__Eportrait@champion@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "void __cdecl Background::Init(struct Background::Background *,char const *,char const *,struct SDL_Renderer *)" (?Init@Background@@YAXPEAU11@PEBD1PEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_SetSurfaceBlendMode referenced in function "void __cdecl ChampSelectScreen::Process(void)" (?Process@ChampSelectScreen@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_UpperBlitScaled referenced in function "void __cdecl ChampSelectScreen::Process(void)" (?Process@ChampSelectScreen@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "void __cdecl AutopingScreen::Process(void)" (?Process@AutopingScreen@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "void __cdecl AutopingScreen::Init(void)" (?Init@AutopingScreen@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_SetTextureAlphaMod referenced in function "void __cdecl Background::Init(struct Background::Background *,char const *,char const *,struct SDL_Renderer *)" (?Init@Background@@YAXPEAU11@PEBD1PEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_SetTextureBlendMode referenced in function "void __cdecl Background::Init(struct Background::Background *,char const *,char const *,struct SDL_Renderer *)" (?Init@Background@@YAXPEAU11@PEBD1PEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "void __cdecl AutopingScreen::Process(void)" (?Process@AutopingScreen@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_RenderFillRect referenced in function "void __cdecl AutopingScreen::Process(void)" (?Process@AutopingScreen@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_RenderCopyEx referenced in function "void __cdecl AutopingScreen::Process(void)" (?Process@AutopingScreen@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "void __cdecl TrackingScreen::HandleData(void)" (?HandleData@TrackingScreen@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol TTF_Init referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol TTF_OpenFont referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol TTF_RenderText_Solid referenced in function "void __cdecl IntroScreen::Init(void)" (?Init@IntroScreen@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "void __cdecl AutopingScreen::Init(void)" (?Init@AutopingScreen@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_OpenAudio referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_LoadWAV_RW referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_LoadMUS referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_PlayChannelTimed referenced in function "void __cdecl TrackingScreen::HandleData(void)" (?HandleData@TrackingScreen@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_PlayMusic referenced in function "void __cdecl InitLibrary(void)" (?InitLibrary@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_PauseMusic referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol Mix_ResumeMusic referenced in function SDL_main
 MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
 SDL2-2.0.8\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
 SDL2-2.0.8\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
 SDL2-2.0.8\lib\x86\SDL2_ttf.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
 SDL2-2.0.8\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
 SDL2-2.0.8\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-E:\Current LOL Bot\SmallLoLProject_90_\x64\Debug\SDL_intro.exe : fatal error LNK1120: 26 unresolved externals
+E:\LOL-Champion-Tracking\LOL-Champion-Tracking\x64\Debug\SDL_intro.exe : fatal error LNK1120: 28 unresolved externals

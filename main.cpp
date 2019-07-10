@@ -99,7 +99,6 @@ void Write(SDL_Texture **textTexture, char* text, TTF_Font *font, SDL_Color colo
 {
 	SDL_Surface *textSurface = TTF_RenderText_Solid(font, text, color);
 	*textTexture = SDL_CreateTextureFromSurface(renderer, textSurface);
-	//SDL_FreeSurface(textSurface); //This makes program crash on release mode ??
 }
 
 
